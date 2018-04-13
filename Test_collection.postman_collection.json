@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "7a0ed6c2-d6c1-450f-971b-87392569bca6",
+		"name": "Test collection",
+		"description": "Collection praveen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=628e4033e8607b565793b58d12119bb5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=628e4033e8607b565793b58d12119bb5",
+					"protocol": "http",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "London,uk"
+						},
+						{
+							"key": "appid",
+							"value": "628e4033e8607b565793b58d12119bb5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://api.openweathermap.org/data/2.5/weather?q=chennai&appid=628e4033e8607b565793b58d12119bb5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://api.openweathermap.org/data/2.5/weather?q=chennai&appid=628e4033e8607b565793b58d12119bb5",
+					"protocol": "http",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "chennai"
+						},
+						{
+							"key": "appid",
+							"value": "628e4033e8607b565793b58d12119bb5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://api.openweathermap.org/data/2.5/weather?q=chennai&appid=628e4033e8607b565793b58d12119bb5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://api.openweathermap.org/data/2.5/weather?q=bangalore&appid=628e4033e8607b565793b58d12119bb5",
+					"protocol": "http",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "bangalore"
+						},
+						{
+							"key": "appid",
+							"value": "628e4033e8607b565793b58d12119bb5"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
